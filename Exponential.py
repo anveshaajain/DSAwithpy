@@ -14,6 +14,7 @@ def exponential_time(n):
 
     print(f"Time taken for n = {n} is {end - start:.6f} seconds")
 
+# Example usage — careful: n should be small (e.g. n=30 or less)
 exponential_time(20)
 exponential_time(25)
 exponential_time(30)
